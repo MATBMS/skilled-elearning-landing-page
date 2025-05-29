@@ -1,0 +1,21 @@
+/* COLORS */
+
+:root {
+  /* blue */
+  --color-blue-900: #13183F;
+  --color-blue-600: #666CA3;
+  /* pink */
+  --color-pink-600: #F74780;
+  --color-pink-300: #FFA7C3;
+  /* grey */
+  --color-grey: #83869A;
+  /* white */
+  --color-white: #FFFFFF;
+}
+
+/* == GRADIENTS == */
+
+:root {
+  --gradient-pink: linear-gradient(180deg, #FF6F48, #F02AA6);
+  --gradient-purple: linear-gradient(180deg, #4851FF, #F02AA6);
+}

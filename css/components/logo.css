@@ -1,0 +1,15 @@
+/* LOGO DARK */
+
+.logo-dark {
+  width: 111px;
+  height: 28px;
+}
+
+/* TABLET */
+
+@media (max-width: 768px) {
+  .logo-dark {
+    width: 79px;
+    height: 20px;
+  }
+}

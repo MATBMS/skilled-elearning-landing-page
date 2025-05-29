@@ -1,0 +1,56 @@
+/* IMPORT */
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  src: url('../../fonts/PlusJakartaSans.ttf') format('truetype');
+}
+
+* {
+  font-family: 'Plus Jakarta Sans';
+  letter-spacing: 0px;
+}
+
+/* HEADING */
+
+h1 {
+  font-size: 56px;
+  font-weight: bolder;
+  line-height: 120%;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: bolder;
+  line-height: 120%;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: bolder;
+  line-height: 120%;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: bolder;
+  line-height: 120%;
+}
+
+/* TEXT */
+
+p {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 150%;
+}
+
+.p-bold,
+.p-bolder {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 150%;
+}
+
+.p-bolder {
+  font-size: 18px;
+}
