@@ -4,12 +4,49 @@
   color: var(--color-white);
   padding: 16px 32px;
   border-radius: 28px;
+  z-index: 2;
+  position: relative;
+  /* Ensure the button is the reference point for the pseudo-element */
+  overflow: hidden;
+  /* Prevent the pseudo-element from overflowing */
+  transition: all .5s;
+}
+
+.btn::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  /* White layer with transparency */
+  opacity: 0;
+  /* Initially hidden */
+  transition: opacity 0.3s ease;
+  /* Smooth transition */
+  z-index: 1;
+  /* Ensure it appears above the button content */
+}
+
+.btn:hover::after {
+  opacity: 1;
+  /* Show the white layer on hover */
 }
 
 /* BLUE */
 
 .btn-blue {
   background-color: var(--color-blue-900);
+}
+
+.btn-blue::after {
+  content: none;
+  /* Remove the pseudo-element for the blue button */
+}
+
+.btn-blue:hover {
+  background-color: var(--color-blue-600);
 }
 
 /* PINK */

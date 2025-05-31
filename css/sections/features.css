@@ -38,6 +38,11 @@
   position: absolute;
   top: -28px;
   left: 32px;
+  transition: all .5s;
+}
+
+.card-icon:hover {
+  transform: rotate(360deg);
 }
 
 .feature-description {
@@ -47,6 +52,15 @@
 .card-title {
   background: var(--gradient-pink);
   color: white;
+}
+
+.card-title h3 {
+  transition: all .5s;
+}
+
+.card-title:hover h3 {
+  transition: all .5s;
+  font-size: 40px;
 }
 
 /* TABLET */
