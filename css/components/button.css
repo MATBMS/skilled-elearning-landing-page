@@ -18,6 +18,12 @@
   background: var(--gradient-pink);
 }
 
+/* PURPLE */
+
+.btn-purple {
+  background: var(--gradient-purple);
+}
+
 /* INLINE */
 
 .btn-inline {

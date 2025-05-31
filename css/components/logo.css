@@ -1,6 +1,6 @@
 /* LOGO DARK */
 
-.logo-dark {
+.logo {
   width: 111px;
   height: 28px;
 }
@@ -8,7 +8,7 @@
 /* TABLET */
 
 @media (max-width: 768px) {
-  .logo-dark {
+  .logo {
     width: 79px;
     height: 20px;
   }

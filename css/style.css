@@ -13,6 +13,7 @@
 
 @import url(./components/button.css);
 @import url(./components/logo.css);
+@import url(./components/navbar.css);
 
 /* ============================= */
 /* ==       LAYOUT            == */
@@ -24,7 +25,6 @@
 /* ==       SECTIONS          == */
 /* ============================= */
 
-@import url(./sections/navbar.css);
 @import url(./sections/hero.css);
 @import url(./sections/features.css);
 @import url(./sections/footer.css);
