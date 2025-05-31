@@ -35,20 +35,26 @@
           <div class="hero-img-container">
             <picture class="hero-img">
               <!-- Desktop WebP -->
-              <source srcset="./img/image-hero-desktop@2x.webp 2x, ./img/image-hero-desktop.webp 1x" type="image/webp" media="(min-width: 769px)">
+              <source srcset="./img/image-hero-desktop@2x.webp 2x, ./img/image-hero-desktop.webp 1x" type="image/webp"
+                media="(min-width: 769px)">
               <!-- Desktop PNG -->
-              <source srcset="./img/image-hero-desktop@2x.png 2x, ./img/image-hero-desktop.png 1x" type="image/png" media="(min-width: 769px)">
-              
+              <source srcset="./img/image-hero-desktop@2x.png 2x, ./img/image-hero-desktop.png 1x" type="image/png"
+                media="(min-width: 769px)">
+
               <!-- Tablet WebP -->
-              <source srcset="./img/image-hero-tablet@2x.webp 2x, ./img/image-hero-tablet.webp 1x" type="image/webp" media="(min-width: 376px) and (max-width: 768px)">
+              <source srcset="./img/image-hero-tablet@2x.webp 2x, ./img/image-hero-tablet.webp 1x" type="image/webp"
+                media="(min-width: 376px) and (max-width: 768px)">
               <!-- Tablet PNG -->
-              <source srcset="./img/image-hero-tablet@2x.png 2x, ./img/image-hero-tablet.png 1x" type="image/png" media="(min-width: 376px) and (max-width: 768px)">
-              
+              <source srcset="./img/image-hero-tablet@2x.png 2x, ./img/image-hero-tablet.png 1x" type="image/png"
+                media="(min-width: 376px) and (max-width: 768px)">
+
               <!-- Mobile WebP -->
-              <source srcset="./img/image-hero-mobile@2x.webp 2x, ./img/image-hero-mobile.webp 1x" type="image/webp" media="(max-width: 375px)">
+              <source srcset="./img/image-hero-mobile@2x.webp 2x, ./img/image-hero-mobile.webp 1x" type="image/webp"
+                media="(max-width: 375px)">
               <!-- Mobile PNG -->
-              <source srcset="./img/image-hero-mobile@2x.png 2x, ./img/image-hero-mobile.png 1x" type="image/png" media="(max-width: 375px)">
-              
+              <source srcset="./img/image-hero-mobile@2x.png 2x, ./img/image-hero-mobile.png 1x" type="image/png"
+                media="(max-width: 375px)">
+
               <!-- Fallback image -->
               <img src="./img/image-hero-desktop.png" alt="Hero image" />
             </picture>
@@ -57,38 +63,54 @@
       </section>
     </header>
     <main>
-      <!-- <section class="features">
-        Check out our most popular courses!
-
-        Animation
-        Learn the latest animation techniques to create stunning motion
-        design and captivate your audience.
-        Get Started
-
-        Design
-        Create beautiful, usable interfaces to help shape the future of
-        how the web looks.
-        Get Started
-
-        Photography
-        Explore critical fundamentals like lighting, composition, and focus
-        to capture exceptional photos.
-        Get Started
-
-        Crypto
-        All you need to know to get started investing in crypto. Go from beginner
-        to advanced with this 54 hour course.
-        Get Started
-
-        Business
-        A step-by-step playbook to help you start, scale, and sustain your business
-        without outside investment.
-        Get Started
-      </section> -->
+      <section id="features">
+        <div class="features-grid">
+          <div class="card card-title">
+            <h3>Check out our most popular courses!</h3>
+          </div>
+          <div class="card">
+            <img src="./img/icon-animation.svg" alt="icon animation" class="card-icon">
+            <h4>Animation</h4>
+            <p class="feature-description">Learn the latest animation techniques to create stunning motion design and
+              captivate your audience.</p>
+            <a href="#" class="btn-inline">Get Started</a>
+          </div>
+          <div class="card">
+            <img src="./img/icon-design.svg" alt="icon design" class="card-icon">
+            <h4>Design</h4>
+            <p class="feature-description">Create beautiful, usable interfaces to help shape the future of how the web
+              looks.</p>
+            <a href="#" class="btn-inline">Get Started</a>
+          </div>
+          <div class="card">
+            <img src="./img/icon-photography.svg" alt="icon photography" class="card-icon">
+            <h4>Photography</h4>
+            <p class="feature-description">Explore critical fundamentals like lighting, composition, and focus to
+              capture exceptional photos.</p>
+            <a href="#" class="btn-inline">Get Started</a>
+          </div>
+          <div class="card">
+            <img src="./img/icon-crypto.svg" alt="icon crypto" class="card-icon">
+            <h4>Crypto</h4>
+            <p class="feature-description">All you need to know to get started investing in crypto. Go from beginner to
+              advanced with this 54 hour
+              course.</p>
+            <a href="#" class="btn-inline">Get Started</a>
+          </div>
+          <div class="card">
+            <img src="./img/icon-business.svg" alt="icon business" class="card-icon">
+            <h4>Business</h4>
+            <p class="feature-description">A step-by-step playbook to help you start, scale, and sustain your business
+              without outside investment.
+            </p>
+            <a href="#" class="btn-inline">Get Started</a>
+          </div>
+        </div>
+      </section>
     </main>
-    <!-- <footer>
-      <a href="#" class="btn">Get Started</a>
-    </footer> -->
+    <footer>
+      <!-- <a href="#" class="btn">Get Started</a> -->
+    </footer>
   </body>
 
 </html>

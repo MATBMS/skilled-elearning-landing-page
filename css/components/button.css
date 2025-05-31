@@ -18,6 +18,15 @@
   background: var(--gradient-pink);
 }
 
+/* INLINE */
+
+.btn-inline {
+  color: var(--color-pink-600);
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 150%;
+}
+
 /* TABLET */
 
 @media (max-width: 768px) {

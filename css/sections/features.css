@@ -1,3 +1,107 @@
-main {
-  min-height: 500px;
+#features {
+  width: 100vw;
+  padding: 64px 80px 144px 80px;
+  background: linear-gradient(to bottom, #FFFFFF 0%, #F0F1FF 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.features-grid {
+  max-width: 1120px;
+  height: 756px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 32px;
+  /* normal gap + card picture outside the card */
+  row-gap: calc(56px + 28px);
+}
+
+.card {
+  width: 352px;
+  height: 322px;
+  padding: 64px 32px 40px 32px;
+  background-color: var(--color-white);
+  border-radius: 15px;
+  box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 4.42%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 24px;
+  position: relative;
+}
+
+.card-icon {
+  width: 56px;
+  height: 56px;
+  position: absolute;
+  top: -28px;
+  left: 32px;
+}
+
+.feature-description {
+  height: 113px;
+}
+
+.card-title {
+  background: var(--gradient-pink);
+  color: white;
+}
+
+/* TABLET */
+
+@media (max-width: 768px) {
+  #features {
+    padding: 64px 44px 144px 44px;
+  }
+
+  .features-grid {
+    max-width: 680px;
+    height: 1114px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 24px;
+    /* normal gap + card picture outside the card */
+    row-gap: calc(32px + 28px);
+  }
+
+  .card {
+    width: 322px;
+  }
+
+  .feature-description {
+    height: 118px;
+  }
+}
+
+/* PHONE */
+
+@media (max-width: 375px) {
+  #features {
+    padding: 64px 20px 80px 20px;
+  }
+
+  .features-grid {
+    max-width: 335px;
+    height: 1874px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 122px repeat(5, 1fr);
+    column-gap: 0px;
+  }
+
+  .card {
+    width: 335px;
+    height: 300px;
+  }
+
+  .feature-description {
+    height: 96px;
+    font-size: 16px;
+  }
+
+  .card-title {
+    height: 122px;
+    padding: 32px;
+  }
 }
