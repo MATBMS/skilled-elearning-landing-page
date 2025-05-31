@@ -16,6 +16,7 @@ h1 {
   font-size: 56px;
   font-weight: bolder;
   line-height: 120%;
+  color: var(--color-blue-900);
 }
 
 h2 {
@@ -42,6 +43,7 @@ p {
   font-size: 18px;
   font-weight: normal;
   line-height: 150%;
+  color: var(--color-grey);
 }
 
 .p-bold,
@@ -53,4 +55,24 @@ p {
 
 .p-bolder {
   font-size: 18px;
+}
+
+/* TABLET */
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
 }

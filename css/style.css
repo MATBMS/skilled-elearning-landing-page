@@ -20,11 +20,11 @@
 
 @import url(./layout/main-layout.css);
 
-/* ========================== */
-/* ==       PAGES          == */
-/* ========================== */
+/* ============================= */
+/* ==       SECTIONS          == */
+/* ============================= */
 
-@import url(./pages/navbar.css);
-@import url(./pages/hero.css);
-@import url(./pages/features.css);
-@import url(./pages/footer.css);
+@import url(./sections/navbar.css);
+@import url(./sections/hero.css);
+@import url(./sections/features.css);
+@import url(./sections/footer.css);

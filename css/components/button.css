@@ -12,6 +12,12 @@
   background-color: var(--color-blue-900);
 }
 
+/* PINK */
+
+.btn-pink {
+  background: var(--gradient-pink);
+}
+
 /* TABLET */
 
 @media (max-width: 768px) {
